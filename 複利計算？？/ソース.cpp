@@ -4,6 +4,8 @@
 //これあってる？？
 //is this valid??
 
+//true bank calc is dont use IEEE954.binaryXXX!! sometimes lost your job.
+
 template<class Float=double,class Int=std::uintmax_t>
 Int 複利計算(const Float& 元本, const Float& 利率, const Int& 日数) {
 	
